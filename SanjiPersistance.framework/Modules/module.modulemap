@@ -1,0 +1,11 @@
+framework module SanjiPersistance {
+  umbrella header "SanjiPersistance.h"
+
+  export *
+  module * { export * }
+}
+
+module SanjiPersistance.Swift {
+    header "SanjiPersistance-Swift.h"
+    requires objc
+}
